@@ -1,0 +1,5 @@
+FROM golang:1.22.0-alpine3.19
+
+COPY main-simpple.go /app/main-simple.go
+
+CMD ["go", "run", "/appmain-simple.go"]
